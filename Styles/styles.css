@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../images/background.jpg") no-repeat center center/cover;
+}
+
+.main-container {
+  position: relative;
+  width: 100%;
+  max-width: 1024px;
+  min-height: 100vh;
+  background: url("../images/background.jpg") no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.golden-text,
+.NanOptiPro-title {
+  width: 100%;
+}
+
+.blue-circle {
+  position: absolute;
+  top: 10%;
+  left: -3%;
+  width: 55%;
+}
+
+.Nan-Product {
+  position: absolute;
+  left: 0;
+  top: 23%;
+  width: 46%;
+  height: 46%;
+}
+
+.moleculs {
+  position: absolute;
+  left: 33%;
+  top: 20%;
+  width: 250px;
+  height: 500px;
+}
+
+.btn {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .blue-circle {
+    top: 5%;
+    left: -5%;
+    width: 20%;
+  }
+  .Nan-Product {
+    top: 20%;
+    width: 50%;
+    height: 50%;
+  }
+  .moleculs {
+    top: 15%;
+    width: 200px;
+    height: 400px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .blue-circle {
+    top: 5%;
+    left: -5%;
+    width: 20%;
+  }
+  .Nan-Product {
+    top: 20%;
+    width: 50%;
+    height: 50%;
+  }
+  .moleculs {
+    top: 15%;
+    width: 200px;
+    height: 400px;
+  }
+}
+@media (min-width: 1200px) {
+  .blue-circle {
+    top: 20%;
+    left: 5%;
+    width: 36%;
+  }
+  .Nan-Product {
+    top: 34%;
+    width: 35%;
+    height: 60%;
+  }
+  .moleculs {
+    top: 30%;
+    left: 28%;
+    width: 180px;
+    height: 380px;
+  }
+  .btn {
+    width: 345px;
+    top: 32%;
+    left: 45%;
+  }
+  .footer {
+    position: absolute;
+    bottom: -10%;
+    padding-bottom: 20px;
+    left: 0;
+    width: 45%;
+    object-fit: contain;
+  }
+}
